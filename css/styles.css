@@ -36,7 +36,57 @@ h1 {
   color: #077c8f;
 }
 
+.gris {
+  color: #999;
+}
+
 .stroke {
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000,
     2px -2px 1px #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+footer {
+  background: black;
+  padding: 10px 0px;
+  color: whitesmoke;
+}
+
+.enlace {
+  list-style: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 45px;
+  color: #077c8f;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transition-duration: 400ms;
+  opacity: 0, 9;
 }
