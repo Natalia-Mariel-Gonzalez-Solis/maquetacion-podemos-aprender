@@ -25,6 +25,10 @@ h1 {
   font-weight: 900;
 }
 
+.dropdown-item {
+  font-weight: 700;
+}
+
 .naranja {
   color: #e64a19;
 }
