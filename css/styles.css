@@ -9,7 +9,8 @@ body {
 }
 
 .header {
-  background-image: url(../images/manosunidas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/manosunidas.jpg);
   background-size: cover;
   background-position: center;
   padding: 150px 0;
