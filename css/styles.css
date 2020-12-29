@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f6f7f1;
+}
+
 .header {
   background-image: url(../images/manosunidas.jpg);
   background-size: cover;
@@ -33,7 +37,7 @@ h1 {
 }
 
 .bginfo-oscuro {
-  color: #077c8f;
+  color: #17a2b8;
 }
 
 .gris {
@@ -60,7 +64,7 @@ h1 {
 }
 
 footer {
-  background: black;
+  background: #111;
   padding: 10px 0px;
   color: whitesmoke;
 }
@@ -69,24 +73,38 @@ footer {
   list-style: none;
 }
 
+.icon {
+  font-size: 40px;
+  color: #17a2b8;
+  margin: 3px;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transition-duration: 400ms;
+  color: #ff8f00;
+  opacity: 0, 9;
+}
+
+.subrayado ul li {
+  border-bottom: 1px solid #ff8f00;
+  line-height: 30px;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  background: #000;
+  line-height: 60px;
+  color: #999;
+}
+
 a:hover,
 a:visited,
 a:link,
 a:active {
   text-decoration: none;
-}
-
-.icon {
-  font-size: 45px;
-  color: #077c8f;
-}
-
-.icon:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transition-duration: 400ms;
-  opacity: 0, 9;
 }
