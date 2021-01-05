@@ -65,7 +65,7 @@ nav {
 }
 
 .navbar-brand.ml-3 {
-  color: #fff;
+  color: black;
   font-weight: 800;
   font-size: 20px;
 }
@@ -74,12 +74,12 @@ nav {
   color: #fff !important;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 18.5px;
 }
 
 .bg-info {
-  background: linear-gradient(to right, #00d2ff, #3a7bd5) !important;
-  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+  background: linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5) !important;
+  background: -webkit-linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
   opacity: 0.98;
 }
 
@@ -92,18 +92,28 @@ nav {
 
 .dropdown-item {
   color: #fff;
-  background-color: linear-gradient(to right, #00d2ff, #3a7bd5);
+  background-color: linear-gradient(to right, #2e8fc5, #3a7bd5);
 }
 
 /*  Textos/Párrafos  */
 
 #about-text {
   text-align: justify;
-  margin-bottom: 20px !important;
 }
 
 #about-text p b {
   color: #3a7bd5;
+  font-weight: 900;
+  font-size: 18.5px;
+}
+
+.lista ul li {
+  list-style-type: none;
+  background-image: url(../images/lista.png);
+  background-position: 0 0;
+  background-size: 1.6rem;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 
 /*  Cards  */
@@ -125,7 +135,7 @@ nav {
 }
 
 .card .card-body:last-child {
-  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  background: linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
 }
 
 .card-text {
@@ -134,20 +144,24 @@ nav {
 
 .hashtags div.col-md-3:nth-child(1) .card-body .card-title,
 .hashtags div.col-md-3:nth-child(2) .card-body .card-title {
-  color: #3a7bd5;
+  color: #2e8fc5;
+  font-weight: 900;
+  font-size: 23px;
 }
 
 .hashtags div.col-md-3:nth-child(3) .card-body .card-title,
 .hashtags div.col-md-3:nth-child(4) .card-body .card-title {
-  color: #00d2ff;
+  color: #2e8fc5;
+  font-weight: 900;
+  font-size: 23px;
 }
 
 /*  Footer  */
 
 footer {
   color: whitesmoke;
-  background: linear-gradient(to right, #00d2ff, #3a7bd5);
-  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
+  background: linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
+  background: -webkit-linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
   padding: 10px 0px;
   box-shadow: 0px -2px 8px 0px grey;
 }
