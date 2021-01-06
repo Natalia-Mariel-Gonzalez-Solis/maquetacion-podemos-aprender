@@ -54,6 +54,24 @@ h1 {
     2px -2px 1px #000;
 }
 
+.button {
+  background-color: #3a7bd5;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2461b8;
+  color: white;
+  text-decoration: none;
+}
+
 /*  Nav  */
 
 nav {
