@@ -234,3 +234,21 @@ a:active {
 .logo-footer {
   filter: drop-shadow(2px 2px 2px rgba(128, 128, 128, 1));
 }
+
+.skip2content-link{
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.skip2content-link:focus{
+  background-color: white;
+  left: 35%; /*para que quede centrado, como el ancho es 30% entonces 50%-15%(mitad)*/
+  top: 0%;
+  width: 30%;
+  height: auto;
+  overflow: auto;
+}
