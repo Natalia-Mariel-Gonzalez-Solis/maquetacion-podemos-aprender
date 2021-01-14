@@ -272,10 +272,14 @@ a:hover {
 }
 
 .skip2content-link:focus {
-  background-color: #008579;
+  background-color: #ffffff;
   left: 35%; /*para que quede centrado, como el ancho es 30% entonces 50%-15%(mitad)*/
   top: 0%;
   width: 30%;
   height: auto;
   overflow: auto;
+}
+
+.skip2content-link:hover {
+  color: #008579;
 }
