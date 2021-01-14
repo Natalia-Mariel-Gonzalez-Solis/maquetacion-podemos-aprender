@@ -34,7 +34,7 @@ h1 {
 }
 
 .amarillo {
-  color: #dbb82a;
+  color: #ff8f00;
 }
 
 .amarillooscuro {
@@ -93,7 +93,7 @@ nav {
 }
 
 .navbar-brand.ml-3 {
-  color: #fedc5b;
+  color: white;
   font-weight: 800;
   font-size: 20px;
 }
@@ -254,7 +254,7 @@ a:active {
 }
 
 a:hover {
-  color: #ffff80;
+  color: #58f9ff;
 }
 
 .logo-footer {
@@ -262,6 +262,7 @@ a:hover {
 }
 
 .skip2content-link {
+  color: #0070f2;
   left: -999px;
   position: absolute;
   top: auto;
@@ -271,7 +272,7 @@ a:hover {
 }
 
 .skip2content-link:focus {
-  background-color: white;
+  background-color: #008579;
   left: 35%; /*para que quede centrado, como el ancho es 30% entonces 50%-15%(mitad)*/
   top: 0%;
   width: 30%;
