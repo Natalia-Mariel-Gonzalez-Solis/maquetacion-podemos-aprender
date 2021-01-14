@@ -55,7 +55,7 @@ h1 {
 }
 
 .button {
-  background-color: #3a7bd5;
+  background-color: rgb(24, 117, 24);
   color: white;
   padding: 16px 48px;
   border-radius: 4px;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #2461b8;
+  background-color: rgb(4, 100, 4);
   color: white;
   text-decoration: none;
 }
@@ -96,21 +96,21 @@ nav {
 }
 
 .bg-info {
-  background: linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5) !important;
-  background: -webkit-linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
+  background: linear-gradient(to right, #008198, #267d97, #3177c0) !important;
+  background: -webkit-linear-gradient(to right, #008198, #267d97, #3177c0);
   opacity: 0.98;
 }
 
 .dropdown-menu {
-  background: #3a7bd5;
-  background: #3a7bd5;
+  background: #267d97;
+  background: #3177c0;
   border: none;
   border-radius: none;
 }
 
 .dropdown-item {
   color: #fff;
-  background-color: linear-gradient(to right, #2e8fc5, #3a7bd5);
+  background-color: linear-gradient(to right, #267d97, #3177c0);
 }
 
 /*  Textos/Párrafos  */
@@ -178,8 +178,14 @@ nav {
 
 footer {
   color: whitesmoke;
-  background: linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
-  background: -webkit-linear-gradient(to right, #00d2ff, #2e8fc5, #3a7bd5);
+  background: linear-gradient(to right, #008389, #008198, #267d97, #3177c0);
+  background: -webkit-linear-gradient(
+    to right,
+    #008389,
+    #008198,
+    #267d97,
+    #3177c0
+  );
   padding: 10px 0px;
   box-shadow: 0px -2px 8px 0px grey;
 }
@@ -190,15 +196,14 @@ footer {
 
 .tamañonegrita {
   color: black;
-  font-size: 18.7px;
-  font-weight: 900;
+  font-size: 16px;
 }
 
 .icon {
   font-size: 40px;
-  color: #fff;
+  color: #ffffff;
   margin: 3px;
-  filter: drop-shadow(2px 2px 2px rgba(128, 128, 128, 1));
+  filter: drop-shadow(2px 2px 2px rgb(22, 22, 22));
 }
 
 .icon:hover {
@@ -208,12 +213,12 @@ footer {
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
   transition-duration: 400ms;
-  color: #00d2ff;
+  color: #53fcff;
   opacity: 0, 9;
 }
 
 .subrayado ul li {
-  border-bottom: 1px solid #00d2ff;
+  border-bottom: 1.5px solid #06eaff;
   line-height: 30px;
 }
 
@@ -224,11 +229,14 @@ footer {
   color: #999;
 }
 
-a:hover,
 a:visited,
 a:link,
 a:active {
   text-decoration: none;
+}
+
+a:hover {
+  color: navy;
 }
 
 .logo-footer {
@@ -251,20 +259,4 @@ a:active {
   width: 30%;
   height: auto;
   overflow: auto;
-}
-
-/* Media queries Footer*/
-
-@media only screen and (min-width: 320px) and (max-width: 360px) {
-  .tamañonegrita {
-    font-size: 14.8px;
-    font-weight: 900;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .tamañonegrita {
-    font-size: 16.5px;
-    font-weight: 900;
-  }
 }
