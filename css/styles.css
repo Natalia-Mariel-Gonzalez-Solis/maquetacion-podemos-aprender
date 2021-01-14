@@ -37,6 +37,10 @@ h1 {
   color: #ff8f00;
 }
 
+.amarillooscuro {
+  color: #db7d02;
+}
+
 .white {
   color: white;
 }
@@ -54,8 +58,14 @@ h1 {
     2px -2px 1px #000;
 }
 
+.stroke:hover {
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000,
+    2px -2px 1px #000;
+  color: white;
+}
+
 .button {
-  background-color: rgb(24, 117, 24);
+  background-color: rgb(25, 105, 25);
   color: white;
   padding: 16px 48px;
   border-radius: 4px;
@@ -67,7 +77,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: rgb(4, 100, 4);
+  background-color: rgb(18, 78, 18);
   color: white;
   text-decoration: none;
 }
@@ -83,9 +93,13 @@ nav {
 }
 
 .navbar-brand.ml-3 {
-  color: black;
+  color: #db7d02;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 21px;
+}
+
+.navbar-brand.ml-3:hover {
+  color: white;
 }
 
 .nav-link {
@@ -96,21 +110,20 @@ nav {
 }
 
 .bg-info {
-  background: linear-gradient(to right, #008198, #267d97, #3177c0) !important;
-  background: -webkit-linear-gradient(to right, #008198, #267d97, #3177c0);
+  background: linear-gradient(to right, #c31432, #240b36) !important;
+  background: -webkit-linear-gradient(to right, #c31432, #240b36);
   opacity: 0.98;
 }
 
 .dropdown-menu {
-  background: #267d97;
-  background: #3177c0;
+  background: #240b36;
   border: none;
   border-radius: none;
 }
 
 .dropdown-item {
   color: #fff;
-  background-color: linear-gradient(to right, #267d97, #3177c0);
+  background-color: linear-gradient(to right, #c31432, #240b36);
 }
 
 /*  Textos/Párrafos  */
@@ -120,7 +133,7 @@ nav {
 }
 
 #about-text p b {
-  color: #3a7bd5;
+  color: rgb(25, 105, 25);
   font-weight: 900;
   font-size: 18.7px;
 }
@@ -153,7 +166,7 @@ nav {
 }
 
 .card .card-body:last-child {
-  background: linear-gradient(to right, #4189ee, #0d5dcc);
+  background: linear-gradient(to right, #c31432, #240b36);
 }
 
 .card-text {
@@ -162,14 +175,14 @@ nav {
 
 .hashtags div.col-md-3:nth-child(1) .card-body .card-title,
 .hashtags div.col-md-3:nth-child(2) .card-body .card-title {
-  color: #2e8fc5;
+  color: rgb(25, 105, 25);
   font-weight: 900;
   font-size: 23px;
 }
 
 .hashtags div.col-md-3:nth-child(3) .card-body .card-title,
 .hashtags div.col-md-3:nth-child(4) .card-body .card-title {
-  color: #2e8fc5;
+  color: rgb(25, 105, 25);
   font-weight: 900;
   font-size: 23px;
 }
@@ -178,14 +191,8 @@ nav {
 
 footer {
   color: whitesmoke;
-  background: linear-gradient(to right, #008389, #008198, #267d97, #3177c0);
-  background: -webkit-linear-gradient(
-    to right,
-    #008389,
-    #008198,
-    #267d97,
-    #3177c0
-  );
+  background: linear-gradient(to right, #c31432, #240b36);
+  background: -webkit-linear-gradient(to right, #c31432, #240b36);
   padding: 10px 0px;
   box-shadow: 0px -2px 8px 0px grey;
 }
@@ -201,7 +208,7 @@ footer {
 
 .icon {
   font-size: 40px;
-  color: #ffffff;
+  color: #00d2ff;
   margin: 3px;
   filter: drop-shadow(2px 2px 2px rgb(22, 22, 22));
 }
@@ -213,12 +220,12 @@ footer {
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
   transition-duration: 400ms;
-  color: #53fcff;
+  color: #32d9ff;
   opacity: 0, 9;
 }
 
 .subrayado ul li {
-  border-bottom: 1.5px solid #06eaff;
+  border-bottom: 1.5px solid black;
   line-height: 30px;
 }
 
@@ -236,7 +243,7 @@ a:active {
 }
 
 a:hover {
-  color: navy;
+  color: #00d2ff;
 }
 
 .logo-footer {
