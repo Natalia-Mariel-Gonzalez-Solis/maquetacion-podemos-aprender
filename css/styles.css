@@ -95,7 +95,7 @@ nav {
 .navbar-brand.ml-3 {
   color: #db7d02;
   font-weight: 800;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .navbar-brand.ml-3:hover {
@@ -124,6 +124,10 @@ nav {
 .dropdown-item {
   color: #fff;
   background-color: linear-gradient(to right, #c31432, #240b36);
+}
+
+.navbar-toggler {
+  border-color: #00d2ff !important;
 }
 
 /*  Textos/Párrafos  */
