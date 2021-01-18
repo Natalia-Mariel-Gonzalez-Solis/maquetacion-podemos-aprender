@@ -8,6 +8,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./images/logopodemosaprender.png" />
@@ -26,58 +28,68 @@
   crossorigin="anonymous">
 </script>
 
-    <link rel="stylesheet" href="./css/styles.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
-      <a class="skip2content-link" href="#Inicio">Saltar al contenido</a>
+
+  <!-- Header -->
+
+   <header class="header">
+    <a class="skip2content-link" href="#Inicio">Saltar al contenido</a>
+
+  <!-- Nav -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info mb-5">
+    <img src="images/logopodemosaprender.png" alt="logopodemosaprender" width="50px" height="63px">
+    <a class="navbar-brand ml-3" id="podemosaprender" tabindex="0" >Podemos Aprender</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Inicio" tabindex="0">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#¿Quiénes-somos?" tabindex="0">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+            Aprendemos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#a" tabindex="0">A</a>
+            <a class="dropdown-item" href="#con" tabindex="0">Con</a>
+            <a class="dropdown-item" href="#para" tabindex="0">Para</a>
+            <a class="dropdown-item" href="#usando" tabindex="0">Usando</a>
+            <a class="dropdown-item" href="#si-cada-día" tabindex="0">Si cada día</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tags.html" tabindex="0">Temas</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
         <h1  class="amarillo stroke">Podemos Aprender</h1>
             <p class="subtitulo white stroke">El aprendizaje es nuestro método para crear una comunidad.</p> 
-            <p class="subtitulo white stroke">¿Quieres mejores trabajos, más clientes, nuevos negocios y crecimiento personal en <span class="bginfo-oscuro">IT</span>, <span class="bginfo-oscuro"> profesiones</span> y <span class="bginfo-oscuro">oficios</span>?</p>
+            <p class="subtitulo white stroke">¿Quieres mejores trabajos, más clientes, nuevos negocios y crecimiento personal en IT y otras áreas?</p>
             <a class="button" href="https://www.facebook.com/groups/PodemosAprender/" target="_blank" aria-label="Visitar Podemos Aprender en Facebook" tabindex="0">Comienza ahora</a> 
+
     </header>
 
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <img src="images/logopodemosaprender.png" alt="logopodemosaprender" width="50px" height="63px">
-        <a class="navbar-brand ml-3 stroke" href="#" tabindex="0">Podemos Aprender</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#Inicio" tabindex="0">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#¿Quiénes-somos?" tabindex="0">¿Quiénes somos?</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                Aprendemos
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#a" tabindex="0">A</a>
-                <a class="dropdown-item" href="#con" tabindex="0">Con</a>
-                <a class="dropdown-item" href="#para" tabindex="0">Para</a>
-                <a class="dropdown-item" href="#usando" tabindex="0">Usando</a>
-                <a class="dropdown-item" href="#si-cada-día" tabindex="0">Si cada día</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tags.html" tabindex="0">Temas</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <!-- Inicio -->
+
       <div class= "row no-gutters mt-4 ml-3 mr-3 mb-3">
         <div id="about-text" class="col-lg-12 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <p id="Inicio"><b>Podemos Aprender</b> es un espacio colaborativo en donde cada integrante de la comunidad aporta sus conocimientos para que todos lo podamos aprovechar.</p>
+          <p id="Inicio"><b>Podemos Aprender</b> es un espacio colaborativo, en donde cada integrante de la comunidad aporta sus conocimientos para que todos lo podamos aprovechar.</p>
           <p> En <b>PA</b> aprendemos a programar, vender, organizar o hacer negocios a través de la experiencia de otros. <b>Esto te permitirá:</b></p>
         </div>
         <div class=" m-2 p-2 lista">
@@ -94,7 +106,14 @@
         
       </div>
 
+      <div align="center"><img src="images/logopodemosaprender.png" width="300px" height="500px"class="img-fluid"></div>
+
+
       <!-- Cards -->
+
+      <div>
+        <h3 align="center" class="m-5 celeste"><b>Los #Hashtag que utilizamos</b></h3>
+      </div>
       <div class="hashtags row ml-5 mr-5 mt-3 mb-5">
         <div class="col-md-3">
           <div class="card">
@@ -152,23 +171,23 @@
          <div class="col-lg-4 col-md-4 col-12 text-center">
            <a href="https://www.podemosaprender.org/" target="_blank"><img src="./images/logopodemosaprender.png" alt="Logo Podemos Aprender. Hacé un click para ir a Inicio" width="100px" height="120px" ></a>
            <ul class="enlace tamaño negrita">
-            <li><a class="white" href="#Inicio" tabindex="0">Inicio</a></li>
-            <li><a class="white" href="#¿Quienes-Somos?" tabindex="0">¿Quiénes Somos?</a></li>
-            <li><a class="white" href="#tags.html" tabindex="0">Temas</a></li>
+            <li><a class="gris" href="#Inicio" tabindex="0">Inicio</a></li>
+            <li><a class="gris" href="#¿Quienes-Somos?" tabindex="0">¿Quiénes Somos?</a></li>
+            <li><a class="gris" href="#tags.html" tabindex="0">Temas</a></li>
           </ul>
           </div>
           <div class="col-lg-4 col-md-4 col-12 subrayado">
-            <h3 class="text-center amarillo stroke" ><b>Podemos Aprender</b></h3>
+            <h3 class="text-center"><a class="titulopa" href="#podemosaprender" tabindex="0">Podemos Aprender</a></h3>
             <ul class="enlace tamaño">
-              <li><a class="ws" href="#a" tabindex="0">A programar, organizar, hacer negocios. </a></li>
-              <li><a class="ws" href="#con" tabindex="0">Con un equipo o con la persona justa.</a></li>
-              <li><a class="ws" href="#para" tabindex="0">Para beneficiarnos y beneficiar a otros.</a></li>
-              <li><a class="ws" href="#usando" tabindex="0">Usando herramientas, métodos, etc.</a></li>
-              <li><a class="ws" href="#si-cada-día" tabindex="0">Si cada día avanzamos, sin retroceder.</a></li>
+              <li><a class="gris" href="#a" tabindex="0">A programar, organizar, hacer negocios. </a></li>
+              <li><a class="gris" href="#con" tabindex="0">Con un equipo o con la persona justa.</a></li>
+              <li><a class="gris" href="#para" tabindex="0">Para beneficiarnos y beneficiar a otros.</a></li>
+              <li><a class="gris" href="#usando" tabindex="0">Usando herramientas, métodos, etc.</a></li>
+              <li><a class="gris" href="#si-cada-día" tabindex="0">Si cada día avanzamos, sin retroceder.</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-4 col-12 text-center">
-            <h4 class="white"><b>La experiencia de aprender está a un click:</b></h4>
+            <h4><b>La experiencia de aprender está a un click:</b></h4>
             <a href="https://www.facebook.com/groups/PodemosAprender/" target="_blank"
                 aria-label="Visitar Podemos Aprender en Facebook" tabindex="0"><i class="fab fa-facebook icon"></i>
               </a>
@@ -185,7 +204,7 @@
                 aria-label="Participar en github de Podemos Aprender" tabindex="0"><i class="fab fa-github icon"></i>
               </a>
               
-              <p>Forma parte de la comunidad PA, súmate a nuestras redes sociales, participa en github o envíanos un email.</p>
+              <p class="gris">Forma parte de la comunidad PA, súmate a nuestras redes sociales, participa en github o envíanos un email.</p>
               
         </div>
  
