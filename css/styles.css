@@ -138,11 +138,11 @@ nav {
 }
 
 .navbar-brand.ml-3:hover {
-  color: #fbbc05;
+  color: #39b882;
 }
 
 .navbar-brand.ml-3:focus {
-  color: #39b882;
+  color: #fbbc05;
 }
 
 .nav-link {
@@ -153,7 +153,7 @@ nav {
 }
 
 .bg-info {
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0.4) !important;
 
   opacity: 0.98;
 }
@@ -166,7 +166,7 @@ nav {
 
 .dropdown-item {
   color: white;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggler {
@@ -175,10 +175,15 @@ nav {
 
 .navbar-brand.ml-3.stroke:focus {
   color: #ffffff;
+  color: #39b882 !important;
 }
 
 .nav-link:hover {
   color: #39b882 !important;
+}
+
+.nav-link:focus {
+  color: #fbbc05 !important;
 }
 
 /*  Textos/Párrafos  */
