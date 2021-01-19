@@ -141,6 +141,10 @@ nav {
   color: #fbbc05;
 }
 
+.navbar-brand.ml-3:focus {
+  color: #39b882;
+}
+
 .nav-link {
   color: white !important;
   font-weight: 600;
@@ -328,6 +332,10 @@ a:hover {
 
 .titulopa:hover {
   color: #fbbc05;
+}
+
+.titulopa:focus {
+  color: #39b882;
 }
 
 .logo-footer {
