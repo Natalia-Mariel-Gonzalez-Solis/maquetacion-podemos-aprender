@@ -138,10 +138,10 @@ nav {
 }
 
 .navbar-brand.ml-3:hover {
-  color: #fbbc05;
+  color: #39b882;
 }
 .navbar-brand.ml-3:focus {
-  color: #39b882 ;
+  color: #fbbc05;
 }
 
 .nav-link {
@@ -150,6 +150,8 @@ nav {
   text-transform: uppercase;
   font-size: 18.7px;
 }
+
+
 
 .bg-info {
   background: transparent !important;
@@ -180,6 +182,9 @@ nav {
   color: #39b882 !important;
 }
 
+.nav-link:focus {
+  color: #fbbc05 !important;
+}
 /*  Textos/Párrafos  */
 
 #about-text {
