@@ -140,6 +140,9 @@ nav {
 .navbar-brand.ml-3:hover {
   color: #fbbc05;
 }
+.navbar-brand.ml-3:focus {
+  color: #39b882 ;
+}
 
 .nav-link {
   color: white !important;
