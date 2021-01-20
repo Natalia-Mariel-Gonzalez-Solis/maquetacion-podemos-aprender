@@ -352,6 +352,7 @@ a:hover {
   background-color: #ffffff;
   left: -999px;
   position: absolute;
+  z-index: 100;
   top: auto;
   width: 1px;
   height: 1px;
