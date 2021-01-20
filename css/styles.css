@@ -349,6 +349,7 @@ a:hover {
 
 .skip2content-link {
   color: #0070f2;
+  background-color: #ffffff;
   left: -999px;
   position: absolute;
   top: auto;
@@ -368,4 +369,5 @@ a:hover {
 
 .skip2content-link:hover {
   color: #008579;
+  background-color: #ffffff;
 }
