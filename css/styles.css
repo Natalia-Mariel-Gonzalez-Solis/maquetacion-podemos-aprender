@@ -12,8 +12,8 @@ body {
 /*  Header  */
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/manosunidas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/grupodepersonas.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 150px;
@@ -27,14 +27,14 @@ h1 {
 }
 
 h4 {
-  font-size: 1.9rem;
-  font-family: "Cookie", cursive;
+  font-size: 1.3rem;
   color: #d8d3d3;
 }
 
 .subtitulo {
   font-size: 21px;
   font-weight: 900;
+  text-shadow: 0.1em 0.1em 0.2em black !important;
 }
 
 .titulopa {
@@ -76,6 +76,10 @@ h4 {
   color: black;
 }
 
+.red {
+  color: rgb(223, 56, 89);
+}
+
 .verde {
   color: #02864d;
 }
@@ -84,6 +88,9 @@ h4 {
   color: #0198b9;
 }
 
+.rosa {
+  background-color: #f1e6e6;
+}
 .stroke {
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000,
     2px -2px 1px #000;
@@ -99,12 +106,16 @@ h4 {
   background-color: #0398b9;
   color: white;
   padding: 16px 48px;
-  border-radius: 4px;
+  border-radius: 7px;
   display: inline-block;
   text-decoration: none;
   transition: 0.3s;
   font-size: 20px;
   font-weight: bold;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
 .button:hover {
@@ -153,7 +164,7 @@ nav {
 }
 
 .bg-info {
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: transparent !important;
 
   opacity: 0.98;
 }
@@ -207,6 +218,11 @@ nav {
   padding-left: 40px;
 }
 
+.texto-div {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 /*  Cards  */
 
 .hashtags span {
@@ -217,16 +233,22 @@ nav {
   margin-bottom: 20px;
 }
 
+.card-container {
+  height: 65vh;
+  background: linear-gradient(to right, #c31432, #240b36);
+  display: flex;
+  border-radius: 12px;
+}
+
 .card {
-  box-shadow: 0px 0px 4px 1px gray;
-  border: 2px solid #39b882;
-  border-radius: 17px;
-  -webkit-border-radius: 17px;
-  -moz-border-radius: 17px;
-  -ms-border-radius: 17px;
-  -o-border-radius: 17px;
-  min-height: 100%;
-  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  height: 62vh;
+  margin: auto;
+  width: 93%;
 }
 
 .card-img-top {
@@ -241,6 +263,10 @@ nav {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.card-body {
+  padding: 7px !important;
 }
 
 .card-text {
@@ -259,6 +285,90 @@ nav {
   color: #191919;
   font-weight: 900;
   font-size: 23px;
+}
+
+/* Testimonios */
+
+#demo {
+  background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+  max-width: 900px;
+  margin: auto;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: rgba(78, 77, 77, 0.856);
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+}
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+i {
+  background-color: rgb(223, 56, 89);
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
 }
 
 /*  Footer  */
@@ -346,6 +456,8 @@ a:hover {
 .logo-footer {
   filter: drop-shadow(2px 2px 2px rgba(128, 128, 128, 1));
 }
+
+/* Botón Skip */
 
 .skip2content-link {
   color: #0070f2;
