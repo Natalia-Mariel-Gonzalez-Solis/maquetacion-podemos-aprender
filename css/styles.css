@@ -212,7 +212,7 @@ nav {
 
 .lista ul li {
   list-style-type: none;
-  background-image: url(../images/TILDE.png);
+  background-image: url(../images/check.png);
   background-position: 0 0;
   background-size: 1.6rem;
   background-repeat: no-repeat;
@@ -295,11 +295,7 @@ nav {
   max-width: 900px;
   margin: auto;
   border: 1px solid #c31432;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .container {
