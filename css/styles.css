@@ -198,6 +198,12 @@ nav {
   color: #fbbc05 !important;
 }
 
+@media (max-width: 320px) {
+  .navbar-brand.ml-3 {
+    font-size: 26px;
+  }
+}
+
 /*  Textos/Párrafos  */
 
 #about-text {
