@@ -210,11 +210,11 @@ nav {
 
 /*  Textos/Párrafos  */
 
-#about-text {
+.about-text {
   text-align: left;
 }
 
-#about-text p b {
+.about-text p b {
   color: #02864d;
   font-weight: 900;
   font-size: 18.7px;
@@ -352,7 +352,7 @@ nav {
   }
 }
 
-#image-caption {
+.image-caption {
   font-style: normal;
   font-size: 1rem;
   margin-top: 0.5rem;
