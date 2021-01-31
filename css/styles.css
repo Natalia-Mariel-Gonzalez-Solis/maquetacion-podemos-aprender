@@ -245,7 +245,7 @@ nav {
 }
 
 .card-container {
-  height: 65vh;
+  height: 25em;
   background: linear-gradient(to right, #c31432, #240b36);
   display: flex;
   border-radius: 12px;
@@ -253,11 +253,11 @@ nav {
 
 .card {
   background-color: white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 4em 10em 10em;
   justify-content: center;
   border-radius: 6px;
-  height: 62vh;
+  height: 24em;
   margin: auto;
   width: 93%;
 }
@@ -265,7 +265,7 @@ nav {
 .card-img-top {
   width: 50%;
   display: block;
-  margin: auto;
+  margin: auto !important;
 }
 
 .card .card-body:last-child {
@@ -278,25 +278,19 @@ nav {
 
 .card-body {
   padding: 7px !important;
+  margin: auto;
 }
 
 .card-text {
   color: #191919;
 }
 
-.hashtags div.col-md-3:nth-child(1) .card-body .card-title,
-.hashtags div.col-md-3:nth-child(2) .card-body .card-title {
+.card-title {
   color: #191919;
   font-weight: 900;
   font-size: 23px;
 }
 
-.hashtags div.col-md-3:nth-child(3) .card-body .card-title,
-.hashtags div.col-md-3:nth-child(4) .card-body .card-title {
-  color: #191919;
-  font-weight: 900;
-  font-size: 23px;
-}
 
 /* Testimonios */
 
