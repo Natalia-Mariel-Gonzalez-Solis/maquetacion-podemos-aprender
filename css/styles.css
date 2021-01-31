@@ -254,7 +254,7 @@ nav {
 .card {
   background-color: white;
   display: grid;
-  grid-template-rows: 4em 10em 10em;
+  grid-template-rows: 4em 7em 13em;
   justify-content: center;
   border-radius: 6px;
   height: 24em;
@@ -263,7 +263,7 @@ nav {
 }
 
 .card-img-top {
-  width: 50%;
+  width: 40%;
   display: block;
   margin: auto !important;
 }
