@@ -27,11 +27,6 @@ h1 {
   font-family: "Cookie", cursive;
 }
 
-h4 {
-  font-size: 1.3rem;
-  color: #d8d3d3;
-}
-
 .subtitulo {
   font-size: 21px;
   font-weight: 900;
@@ -45,32 +40,18 @@ h4 {
   font-weight: 800;
 }
 
-.dropdown-item {
-  font-weight: 700;
-}
+/* Paleta de Colores */
 
 .amarillo {
   color: #fbbc05;
-}
-
-.amarillooscuro {
-  color: #fedc5b;
 }
 
 .white {
   color: whitesmoke;
 }
 
-.wo {
-  color: #d8d3d3;
-}
-
 .gris {
   color: #999;
-}
-
-.bginfo-oscuro {
-  color: #00d2ff;
 }
 
 .black {
@@ -89,9 +70,6 @@ h4 {
   color: #0198b9;
 }
 
-.rosa {
-  background-color: #f1e6e6;
-}
 .stroke {
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000,
     2px -2px 1px #000;
@@ -166,7 +144,6 @@ nav {
 
 .bg-info {
   background: transparent !important;
-
   opacity: 0.98;
 }
 
@@ -178,6 +155,7 @@ nav {
 
 .dropdown-item {
   color: white;
+  font-weight: 700;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -203,7 +181,7 @@ nav {
     font-size: 26px;
   }
 
-  .tamaño {
+  .enlace {
     font-size: 15px !important;
   }
 }
@@ -290,7 +268,6 @@ nav {
   font-weight: 900;
   font-size: 23px;
 }
-
 
 /* Testimonios */
 
@@ -384,15 +361,11 @@ i {
 footer {
   color: white;
   background: rgb(22, 21, 21) !important;
-
   box-shadow: 0px -2px 8px 0px grey;
 }
 
 .enlace {
   list-style: none;
-}
-
-.tamaño {
   font-size: 16px;
 }
 
@@ -436,6 +409,11 @@ footer {
   line-height: 30px;
 }
 
+.h4 {
+  font-size: 1.3rem;
+  color: #d8d3d3;
+}
+
 .footer-bottom-text {
   text-align: center;
   background: #000;
@@ -461,7 +439,7 @@ a:hover {
   color: #39b882;
 }
 
-.logo-footer {
+.logo-shadow {
   filter: drop-shadow(2px 2px 2px rgba(128, 128, 128, 1));
 }
 
