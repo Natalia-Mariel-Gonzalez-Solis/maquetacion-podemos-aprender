@@ -340,14 +340,18 @@ nav {
 i {
   background-color: rgb(223, 56, 89);
   font-size: 35px;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .carousel-control-prev {
   justify-content: flex-start;
+  margin-left: 1rem;
 }
 
 .carousel-control-next {
   justify-content: flex-end;
+  margin-right: 1rem;
 }
 
 .carousel-control-prev,
