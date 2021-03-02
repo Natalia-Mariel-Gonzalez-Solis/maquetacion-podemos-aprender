@@ -8,7 +8,7 @@ Trabajo en equipo realizado para actualizar la maqueta y diseño de la página o
 - Noelia Avalos
 - David Palomeque
 - Leandro Burioni
-- Branko Hbk
+- Branko Haberkon
 - Tony Arturo Curi Caballero
 - Raul Sanchez
 - Jarero Martinez
@@ -34,6 +34,5 @@ Trabajo en equipo realizado para actualizar la maqueta y diseño de la página o
 - Juan Pablo Alvarez Piñero
 - Martin Segura
 - Fer Catz
-- Andur Itech
 - Hugo Gabriel Quintana Lesme
 - Juan Bautista Nogal
