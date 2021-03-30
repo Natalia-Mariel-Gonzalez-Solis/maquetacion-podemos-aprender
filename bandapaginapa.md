@@ -12,6 +12,8 @@ Trabajo en equipo realizado para actualizar la maqueta y diseño de la página o
 - Tony Arturo Curi Caballero
 - Raul Sanchez
 - Jarero Martinez
+- Martin Segura
+- Esteban Toloza
 
 ### Accesibilidad Web
 
