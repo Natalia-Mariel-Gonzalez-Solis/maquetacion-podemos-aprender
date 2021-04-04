@@ -5,7 +5,6 @@ Trabajo en equipo realizado para actualizar la maqueta y diseño de la página o
 ### Maquetado y Diseño
 
 - Natalia Mariel Gonzalez Solis
-- Noelia Avalos
 - David Palomeque
 - Leandro Burioni
 - Branko Haberkon
@@ -27,7 +26,6 @@ Trabajo en equipo realizado para actualizar la maqueta y diseño de la página o
 ### Nuevo contenido
 
 - Ian Barion
-- Noelia Avalos
 - Fer Catz
 
 ### Correcciones y Sugerencias
